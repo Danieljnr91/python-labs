@@ -18,8 +18,6 @@ owners_name = input("Enter name of Account:")
 cash_in_acct = float(input("Enter Your Account Balance:"))     
 owners_details = BankAccount(owners_name , cash_in_acct)
 
-print(owners_details.owners_name)
-
 
 while True:
   print("Press... \n 1. to deposit \n 2. to withdraw \n 3. to check balance \n 4. to exit")
