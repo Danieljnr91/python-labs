@@ -12,7 +12,7 @@
 
 
 # class Food:
-#   def __init__(self , water_content , salt_content , sugar_content):
+# def __init__(self , water_content , salt_content , sugar_content):
 #     self.water_level = water_content
 #     self.salt_level = salt_content
 #     self.sugar_level = sugar_content
@@ -65,12 +65,12 @@
       
           
 
-# class Computations:
+#  class Computations:
 #   def __init__(self , radius):
-#     self.rad = radius
-#   def circle_area(self):
-#       area = 3.145 * self.rad ** 2
-#       return f"Area of the circle = {area} sq.units"
+#      self.rad = radius
+#    def circle_area(self):
+#        area = 3.145 * self.rad ** 2
+#     return f"Area of the circle = {area} sq.units"
 #   def circ_circumfernce(self):  
 #     circumference = 3.145 * 2 * self.rad
 #     return f"Cicumference of the circle = {circumference}sq.units"
@@ -129,11 +129,3 @@ print(x)
   
   
   
-  
-  
-  
-  
-    
-
-
-

@@ -1,5 +1,3 @@
-import os 
-
 class StudentData:
   def __init__(self , marks_dict):
     self.student_dict = marks_dict
@@ -25,20 +23,3 @@ class AverageRankings(StudentData):
     for names in self.mark_averages:
         if self.mark_averages[names] == self.highest_average:
           return f"{names} topped the class with {self.highest_average} marks \n {self.mark_averages}"
-      
-data_dictionary = {}
-end = False
-while not end:
-  student_name = input("Enter Student Name:")
-  student_marks = input("Enter Marks seperated by comma \n:").split(",")
-  student_marks_list = [int(i) for i in student_marks]
-  data_dictionary[student_name] = student_marks_list
-  student_data_object = StudentData(marks_dict=data_dictionary)
-  average_details = AverageRankings(student_data_object)
-  multiple = input("Are there more students?(Y/N):").lower()
-  if multiple == "n":
-    print(average_details.rankings())
-  else:
-    os.system("cls")
-  
-

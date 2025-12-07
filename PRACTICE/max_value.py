@@ -28,6 +28,6 @@ first = int_num[0]
 for j in int_num:
     if j > first:
         first = j
-    print(first)
+print(first)
     
 

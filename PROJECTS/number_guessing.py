@@ -18,7 +18,7 @@ attempts = 0
 while True:
   user_guess = int(input("Guess a number:"))
   if user_guess > 50 or user_guess < 0:
-     print(f"The range of numbers is 1 - 50,z {user_guess} is outside that range!")
+     print(f"The range of numbers is 1 - 50, {user_guess} is outside that range!")
 
   attempts += 1
 
@@ -32,5 +32,5 @@ while True:
      print(f"BINGO! That's it! {computer_choice} it took you {attempts} attempts to figure that one out") 
   
   if chances == 0:
-     print("Game Over")
+     print(f"Game Over, the number was {computer_choice}")
      break

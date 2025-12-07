@@ -24,7 +24,7 @@ def recursing():
   shopping_details = ShoppingCart(initial_shopping_list)
 
   while True:
-    print("Enter \n 1. To add new items \n 2. To remove new items \n 3. To restore initial list \n 4. To enter new list \n 5. To exit   ")
+    print("Enter \n 1. To add new items \n 2. To remove new items \n 3. To restore initial list \n 4. To enter new list \n 5. To exit")
     operations = int(input("Choose number:"))
     if operations == 1:
       new_items = input("Enter items to add seperated by comma \n:").split(",")
@@ -47,6 +47,6 @@ def recursing():
     else:
       print("Alright, Exiting...")
       break
-recursing()   
+recursing()  
 
   
